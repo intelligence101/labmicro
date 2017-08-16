@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+@font-face{
+	font-family: 'FuturaHandwritten';
+	font-style: normal;
+	src: url('./css/FuturaHandwritten.ttf') format('truetype');
+}
+
+.home {
+  color: #fff;
+}
