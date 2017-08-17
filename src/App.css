@@ -8,5 +8,39 @@
 }
 
 .home {
-  color: #fff;
+  margin:auto;
+  color: #0240d0;
+  align-self: center;
+}
+
+.typew {
+  font-size: 40px;
+  font-family: "FuturaHandwritten";
+	font-size: 100%;
+}
+
+.tag-line {
+  position:relative;
+  animation-iteration-count: infinite;
+}
+
+.typed-cursor{
+  opacity: 1;
+  animation: typedjsBlink 0.7s infinite;
+  -webkit-animation: typedjsBlink 0.7s infinite;
+  animation: typedjsBlink 0.7s infinite;
+}
+@keyframes typedjsBlink{
+  50% { opacity: 0.0; }
+}
+@-webkit-keyframes typedjsBlink{
+  0% { opacity: 1; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1; }
+}
+.typed-fade-out{
+  opacity: 0;
+  transition: opacity .25s;
+  -webkit-animation: 0;
+  animation: 0;
 }
